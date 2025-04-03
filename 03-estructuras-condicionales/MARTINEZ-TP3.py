@@ -217,7 +217,7 @@ if __name__ == '__main__':
         if  numero in actividades:
             return actividades[numero]
         else:
-            return lambda : None
+            return None
     actividad = eligir_actividad()
     while actividad is not None:
         actividad()

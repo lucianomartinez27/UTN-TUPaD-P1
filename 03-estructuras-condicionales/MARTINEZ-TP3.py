@@ -200,7 +200,7 @@ def actividad_10():
     print(f"Es {estaciones_hemisferio[hemisferio][obtener_periodo(numero_mes, numero_dia) - 1]}")
 
 if __name__ == '__main__':
-    def eligir_actividad():
+    def elegir_actividad():
         numero = input("Elija qué actividad quiere ejecutar: 1-10: o cualquier otro número para salir: ")
         actividades = {
             '1': actividad_1,
@@ -218,9 +218,9 @@ if __name__ == '__main__':
             return actividades[numero]
         else:
             return None
-    actividad = eligir_actividad()
+    actividad = elegir_actividad()
     while actividad is not None:
         actividad()
-        actividad = eligir_actividad()
+        actividad = elegir_actividad()
     print("Saló de la aplicación")
 

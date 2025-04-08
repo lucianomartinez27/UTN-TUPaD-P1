@@ -222,5 +222,5 @@ if __name__ == '__main__':
     while actividad is not None:
         actividad()
         actividad = elegir_actividad()
-    print("Saló de la aplicación")
+    print("Salió de la aplicación")
 

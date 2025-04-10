@@ -1,5 +1,5 @@
 from cola import Cola
-class Supermercado:
+class Banco:
     fila = Cola()
 
     def agregar_cliente(self, cliente):

@@ -5,7 +5,7 @@ from time import sleep
 from persona import Persona
 from circulo import Circulo
 from funciones import balanceado
-from supermercado import Supermercado
+from banco import Banco
 from lista_enlazada import ListaEnlazada
 
 def actividad_1():
@@ -72,20 +72,20 @@ def actividad_7():
     # ● Agregar clientes (encolar).
     # ● Atender clientes (desencolar).
     # ● Mostrar el siguiente cliente en la fila.
-    supermercado = Supermercado()
-    supermercado.agregar_cliente("Luciano")
+    banco = Banco()
+    banco.agregar_cliente("Luciano")
     sleep(1)
-    supermercado.agregar_cliente("Juan")
+    banco.agregar_cliente("Juan")
     sleep(1)
-    supermercado.atender_cliente()
+    banco.atender_cliente()
     sleep(1)
-    supermercado.agregar_cliente("Pedro")
+    banco.agregar_cliente("Pedro")
     sleep(1)
-    supermercado.mostrar_siguiente()
+    banco.mostrar_siguiente()
     sleep(1)
-    supermercado.atender_cliente()
+    banco.atender_cliente()
     sleep(1)
-    supermercado.atender_cliente()
+    banco.atender_cliente()
 
 def actividad_8():
     # 8) Crea una lista enlazada que permita insertar nodos al inicio y recorrer la lista para mostrar
